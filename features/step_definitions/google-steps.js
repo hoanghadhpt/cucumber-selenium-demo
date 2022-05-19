@@ -7,7 +7,7 @@ var {expect} = require('chai');
 defineSupportCode(function({When, Then}) {
 
   When(/^I search Google for "([^"]*)"$/, function (searchQuery, next) {
-    this.driver.get('http://www.google.co.uk/webhp?complete=0');
+    this.driver.get('https://www.google.com.vn/');
     this.driver.findElement(By.name('q'))
       .sendKeys(searchQuery);
     this.driver.findElement(By.name('q'))
