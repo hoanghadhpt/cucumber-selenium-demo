@@ -1,0 +1,144 @@
+[
+  {
+    "description": "  As an internet user\n  In order to find out more about cucumbers\n  I want to be able to search for information about cucumbers",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Searching for cucumbers",
+    "tags": [],
+    "uri": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/google.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Google cucumber search",
+        "tags": [],
+        "id": "searching-for-cucumbers;google-cucumber-search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search Google for \"cucumbers\"",
+            "result": {
+              "status": "passed",
+              "duration": 2804
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/google-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see some results",
+            "result": {
+              "status": "passed",
+              "duration": 10
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/google-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 53
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/support/hooks.js:10"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "searching-for-cucumbers"
+  },
+  {
+    "description": "  As an internet user\n  In order to find out more about cucumbers\n  I want to be able to search for information about cucumbers",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Searching for cucumbers",
+    "tags": [],
+    "uri": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/Vnexpress.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Vnexpress",
+        "tags": [],
+        "id": "searching-for-cucumbers;vnexpress",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I go to \"https://vnexpress.net/\"",
+            "result": {
+              "status": "passed",
+              "duration": 4162
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/vnexpress_steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I got classname \"thoisu\"",
+            "result": {
+              "status": "passed",
+              "duration": 13
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/vnexpress_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on classname \"thoisu\"",
+            "result": {
+              "status": "passed",
+              "duration": 610
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/vnexpress_steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I compare text",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/step_definitions/vnexpress_steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 52
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hoangha/Documents/test/cucumber-js-selenium-webdriver-example/features/support/hooks.js:10"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "searching-for-cucumbers"
+  }
+]

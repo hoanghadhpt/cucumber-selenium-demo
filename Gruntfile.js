@@ -26,6 +26,14 @@ module.exports = function(grunt) {
         esversion: 6
       }
     },
+    cucumberjs: {
+      options: {
+        format: 'html',
+        output: 'reports/autotest.html',
+        theme: 'bootstrap'
+      },
+      features : []
+    },
 
     exec: {
       run_cucumber_tests: {
@@ -38,6 +46,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-env');
+  grunt.loadNpmTasks('grunt-cucumberjs');
 
   grunt.registerTask('default', ['jshint', 'exec']);
   grunt.registerTask('chrome', ['env:chrome', 'jshint', 'exec']);
