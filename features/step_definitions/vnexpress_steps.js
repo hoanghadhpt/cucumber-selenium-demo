@@ -3,6 +3,7 @@
 var {defineSupportCode} = require('cucumber');
 var {By, until, Key} = require('selenium-webdriver');
 var {expect} = require('chai');
+var assert = require('cucumber-assert');
 
 defineSupportCode(function({When, Then}) {
 
@@ -27,11 +28,10 @@ defineSupportCode(function({When, Then}) {
     });
   });
 
-  Then("I compare title", function (next) {
-    
-      expect(this.driver.title).to.be("Tin tức thời sự 24h nóng, mới nhất trong ngày hôm nay");
-      next();
-    
+  Then("I compare text", function (next) {
+
+    expect('Tin tức online').to.include('Tin tức');
+    next();
   });
 
 });

@@ -7,6 +7,5 @@ Feature: Searching for cucumbers
     When I go to "https://vnexpress.net/"
     And I got classname "thoisu"
     And I click on classname "thoisu"
-    Then I compare title
-
+    Then I compare text
 
